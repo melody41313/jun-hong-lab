@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>首頁｜汫鈜</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand"><a href="index.html"><img src="assets/logo.png" alt="汫鈜 JUN HONG"></a></div>
+  <div class="nav-wrap">
+    <button class="menu-toggle" aria-label="開啟選單">☰</button>
+    <nav class="nav">
+      <a href="index.html">首頁</a>
+      <a href="company.html">公司簡介</a>
+      <div class="nav-item">
+        <button type="button">服務項目</button>
+        <div class="dropdown">
+          <a href="lab-planning.html">實驗室規劃</a>
+          <a href="equipment.html">設備訂製</a>
+          <a href="consumables.html">實驗室耗材</a>
+        </div>
+      </div>
+      <a href="contact.html">客製化需求</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero home-hero" style="background-image:url('assets/heroes/home.jpg')">
+  <div class="hero-content">
+    <h1>為你解決所有大小事</h1>
+    <p>LABORATORY</p>
+  </div>
+</section>
+
+<section class="section home-intro">
+  <div class="container">
+    <h2>一站整合器材與顧問</h2>
+    <p>優化實驗流程</p>
+    <div class="home-service-grid">
+      <a href="lab-planning.html"><img src="assets/service/lab-planning.png" alt="實驗室規劃"><svg class="home-service-circle" viewBox="0 0 300 220" preserveAspectRatio="none" aria-hidden="true"><path d="M25 78 C29 32 80 8 148 10 C216 12 274 37 278 78 C281 119 232 146 166 148 C100 150 42 130 27 100 C22 91 22 84 25 78Z"/></svg></a>
+      <a href="equipment.html"><img src="assets/service/equipment.png" alt="設備訂製"><svg class="home-service-circle" viewBox="0 0 300 220" preserveAspectRatio="none" aria-hidden="true"><path d="M25 78 C29 32 80 8 148 10 C216 12 274 37 278 78 C281 119 232 146 166 148 C100 150 42 130 27 100 C22 91 22 84 25 78Z"/></svg></a>
+      <a href="consumables.html"><img src="assets/service/consumables.png" alt="實驗室耗材"><svg class="home-service-circle" viewBox="0 0 300 220" preserveAspectRatio="none" aria-hidden="true"><path d="M25 78 C29 32 80 8 148 10 C216 12 274 37 278 78 C281 119 232 146 166 148 C100 150 42 130 27 100 C22 91 22 84 25 78Z"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="case-band">
+  <div class="container">
+    <div class="home-case-title">各大專院合作案經驗</div>
+    <div class="home-case-carousel-wrap">
+      <button class="home-case-control prev" type="button" aria-label="上一張案例">‹</button>
+      <div class="case-image home-case-carousel" aria-label="合作案例照片輪播" aria-roledescription="輪播">
+        <div class="home-case-slides">
+          <img class="is-active" src="assets/cases/equipment-tank.png" alt="設備訂製案例" aria-hidden="false">
+          <img src="assets/cases/lab-tiger.jpg" alt="虎科實驗室規劃案例" aria-hidden="true">
+          <img src="assets/cases/lab-table.png" alt="實驗桌規劃案例" aria-hidden="true">
+          <img src="assets/cases/equipment-heater.jpg" alt="加熱設備訂製案例" aria-hidden="true">
+          <img src="assets/cases/equipment-roller.jpg" alt="設備訂製案例" aria-hidden="true">
+          <img src="assets/cases/lab-gas.png" alt="實驗室設備規劃案例" aria-hidden="true">
+        </div>
+        <div class="home-case-dots" aria-label="選擇案例照片"></div>
+      </div>
+      <button class="home-case-control next" type="button" aria-label="下一張案例">›</button>
+    </div>
+  </div>
+</section>
+
+<section class="home-contact-cta">
+  <div class="container">
+    <p class="home-cta-lead">三大核心服務：規劃 x 耗材 x 客製設備</p>
+    <p class="home-cta-question">還有想實現的需求嗎？</p>
+    <img class="home-cta-title" src="assets/contact-cta.png" alt="填寫以下表單 免費諮詢">
+
+    <div class="home-form-panel">
+      <div class="home-form-title">需求表單</div>
+      <form action="https://formsubmit.co/coleman50960019@gmail.com" method="POST" class="home-contact-form">
+        <input type="hidden" name="_subject" value="【汫鈜網站】收到新的客製化需求">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
+        <div class="home-form-top">
+          <label>聯絡人／單位名稱 <span>*</span><input type="text" name="聯絡人／單位名稱" required></label>
+          <label>聯絡電話<input type="tel" name="聯絡電話"></label>
+          <label>Email <span>*</span><input type="email" name="Email" required></label>
+        </div>
+        <div class="home-form-bottom">
+          <label>請下拉選擇問題需求
+            <select name="諮詢需求" required>
+              <option value="">請下拉選擇問題需求</option>
+              <option>實驗室規劃（等相關問題）</option>
+              <option>設備訂製（等相關問題）</option>
+              <option>實驗室耗材訂購（等相關問題）</option>
+              <option>其他需求</option>
+            </select>
+          </label>
+          <label>可簡述相關需求（選填）
+            <textarea name="需求內容" rows="4" placeholder=""></textarea>
+          </label>
+        </div>
+        <button type="submit">立即送出 → 專人回覆</button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h3>公司簡介</h3><p>汫鈜</p><p>提供專業人才協助各大<br>研究單位加速實驗進程<br>及所需的耗材</p></div>
+      <div><h3>服務項目</h3><ul><li><a href="lab-planning.html">實驗室規劃</a></li><li><a href="consumables.html">實驗室耗材</a></li><li><a href="equipment.html">設備訂製</a></li><li><a href="contact.html">客製化需求</a></li></ul></div>
+      <div><h3>聯絡我們</h3><p>地址 新竹市東區光復路一段572巷3號</p><p>連絡電話 0911-900-522</p><p>Email coleman50960019@gmail.com</p><p>公司統編 6038-2891</p></div>
+      <div><h3>GOOGLE</h3><iframe class="map" loading="lazy" src="https://www.google.com/maps?q=%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E5%85%89%E5%BE%A9%E8%B7%AF%E4%B8%80%E6%AE%B5572%E5%B7%B73%E8%99%9F&output=embed"></iframe></div>
+    </div>
+    <div class="copyright">2026 汫鈜 © 版權所有</div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
