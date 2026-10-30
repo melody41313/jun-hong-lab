@@ -11,11 +11,11 @@ lineContact.innerHTML=`
     <p class="line-contact-kicker">JUN HONG</p>
     <h2 id="line-contact-title">有任何需求嗎？</h2>
     <p class="line-contact-description">實驗室規劃、設備訂製、耗材或其他需求，歡迎聯絡。</p>
-    <a class="line-contact-qr-link" href="https://line.me/ti/p/~1201pei" target="_blank" rel="noopener" aria-label="掃描 QR Code 加入 LINE 帳號 1201pei">
-      <img class="line-contact-qr" src="assets/service/line-1201pei.svg" alt="LINE 帳號 1201pei 加好友 QR Code">
+    <a class="line-contact-qr-link" href="https://line.me/ti/p/~urean" target="_blank" rel="noopener" aria-label="掃描 QR Code 加入 LINE 帳號 urean">
+      <img class="line-contact-qr" src="assets/service/line-urean.svg" alt="LINE 帳號 urean 加好友 QR Code">
       <span>掃碼加入 LINE 好友</span>
     </a>
-    <a class="line-contact-open" href="https://line.me/ti/p/~1201pei" target="_blank" rel="noopener">
+    <a class="line-contact-open" href="https://line.me/ti/p/~urean" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3C6.9 3 2.8 6.3 2.8 10.5c0 2.3 1.3 4.4 3.5 5.7l-.8 3 3.6-1.8c.9.2 1.9.4 2.9.4 5.1 0 9.2-3.3 9.2-7.4S17.1 3 12 3Z"/><path d="M7.4 10.7h9.2M7.4 13.2h6.8"/></svg>
       <span>LINE 詢問</span><span class="line-contact-arrow">↗</span>
     </a>
